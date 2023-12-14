@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-logo{
+    width: 9%;
+    height: 15vh;
+    object-fit: contain;
+    padding: .5rem;
+}
+
+.img-home{
+    width: 95%;
+    height: 45vh;
+    border-radius: 4rem;
+}
+
+.container-header{
+    width: 98%;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 3rem;
+}
+
+.container-header h1{
+    width: 38%;
+    height: 14vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.container-header h1{
+    -webkit-text-stroke: 2px yellow;
+    color: transparent; 
+}
+
+.container-nav{
+    width: 54%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1rem;
+    font-family: cursive;
+    font-size: 1rem;
+    
+}
+
+.container-nav a{
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: yellow;
+    color: black;
+}
+
+.container-nav a:hover{
+    background-color: white;
+    padding: .6rem;
+}
+
+.container-main{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(66, 65, 65, .5);
+    border-radius: 2rem;
+}
+
+.container-main h2{
+    width: 20%;
+    height: 10vh;
+    padding: .5rem;
+    font-size: 1.6rem;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: yellow;
+}
+
+.container-principal{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container-img-inicio{
+    width: 35%;
+    height: 50vh;
+}
+
+.container-cards-inicio{
+    width: 60%;
+    height: 55vh;
+    font-size: 1.5rem;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+    color: white;
+    background-color: rgba(64, 64, 64, 0.8);
+    border-radius: 2rem;
+    padding: .5rem;
+}
+
+.cards h3{
+    width: 25%;
+    height: 8vh;
+    color: yellow;
+    border-bottom: 1px solid black;
+}
+
+.cards p{
+    width: 90%;
+    height: 5vh;
+    padding-left: 1rem;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ABOUT */
+.container-main-about{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 1rem;
+    background-color: rgb(66, 65, 65, .5);
+    border-radius: 2rem;
+}
+
+.img-about{
+    width: 20%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.container-cards-about{
+    width: 50%;
+    height: 72vh;
+    padding: 1rem;
+    font-family: cursive;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .4rem;
+    color: white;
+    background-color: rgba(75, 74, 74, 0.8);
+}
+
+.container-cards-about h2{
+    width:40%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    color: black;
+    background-color: yellow;
+}
+
+.h2-about{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-about{
+    width: 100%;
+    height: 20vh;
+}
+
+.cards-about h3{
+    width: 35%;
+    height: 4.3vh;
+    color: yellow;
+    font-size: 1.3rem;
+    border-bottom: 1px solid black;
+}
+
+.cards-about p{
+    width: 100%;
+    height: 15vh;
+}
+
+
+/* CONTACT */
+.container-main-contact{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container-cards-contact{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 2rem;
+    font-family: cursive;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(67, 65, 65, 0.6);
+}
+
+.h2-contact{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.container-cards-contact h2{
+    width: 25%;
+    height: 8vh;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: yellow;
+}
+
+.cards-contact{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: rgb(176, 181, 181, .5);
+}
+
+.img-contact{
+    width: 10%;
+    height: 10vh;
+    padding: .2rem;
+}
+
+/* RULES */
+.container-section-rules{
+    width: 100%;
+    height: 75vh;
+    padding: 1.5rem;
+    font-family: cursive;
+    font-size: .8rem;
+    border-radius: 2rem;
+    padding: .5rem;
+    background-color: rgba(31, 31, 31, 0.9);
+}
+
+.container-div-rules{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;
+    color: yellow;
+}
+
+.contenido-rules{
+    width: 100%;
+    height: 62vh;
+    padding: .7rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    font-size: .8rem;
+    color: white;
+
+}
+
+.contendio-dd-rules{
+    margin-bottom: 1rem;
+}
+
+.lista-rules{
+    margin-bottom: .5rem;
+}
+
+strong{
+    color: yellow;
+}
+
+
+/* GAME-INFOR */
+.container-main-info{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container-section-info{
+    width: 100%;
+    height: 73vh;
+    font-family: cursive;
+    padding: .8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 2rem;
+    background-color: rgba(100, 98, 98, 0.8);
+}
+
+.container-section-info h3{
+    color: yellow;
+    text-align: center;
+}
+
+.container-table-info{
+    width: 100%;
+    height: 70vh;
+}
+
+.table{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(139, 135, 135);
+}
+
+.thead-table{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.tbody-table{
+    background-color: rgb(41, 43, 43);
+    color: antiquewhite;
+}
+
+.mapas{
+    width: 50%;
+    height: 5vh;
+}
+
+.container-lista-info{
+    width: 50%;
+    height: 40vh;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+
+.lista-info{
+    list-style: none;
+}
+
+.lista-info-2{
+    width: 100%;
+    height:8vh ;
+    list-style: none;
+    margin-top: .5rem;
+}
+
+.lista-info-3{
+    width: 100%;
+    height: 3vh;
+    list-style: none;
+}
+
+.phone-info{
+    color: white;
+}
+
+.email-info{
+    color: white;
+}
+
+/* REGISTRATION */
+.container-registration{
+    width: 100%;
+    height: 70vh;
+}
+
+.h3-registration{
+    width: 100%;
+    height: 5vh;
+    font-family: cursive;
+    text-align: center;
+    font-size: 1rem;
+    color: yellow;
+}
+
+.container-formulario{
+    width: 100%;
+    height: 65vh;
+    font-family: cursive;
+    font-size: .8rem;
+    color: white;
+}
+
+.contenido-formulario{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.fieldset-first-name{
+    width: 100%;
+    height: 10vh;
+}
+
+.input-1{
+    width: 24%;
+    height: 3vh;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    background-color: yellow;
+}
+
+.contenido-formulario-2{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+.fieldset-birh-date{
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.input-2{
+    background-color: yellow;
+}
+
+.contenido-formulario-3{
+    width: 53%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+}
+
+input[type="radio"]{
+    accent-color: yellow;
+}
+
+.contenido-formulario-4{
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenido-formulario-5{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+}
+
+.fieldset-position{
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+input[type="checkbox"]{
+    accent-color: yellow;
+}
+
+.fieldset-uniform{
+    width: 50%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+}
+
+.fieldset-end{
+    width: 100%;
+    height: 6vh;
+}
+
+.input-3{
+    width: 50%;
+    height: 2vh;
+    margin-right: 1rem;
+    margin-top: .3rem;
+    border-radius: 1rem;
+    background-color: yellow;
+}
+
+.input-4{
+    width: 40%;
+    height: 3vh;
+    font-size: 1rem;
+    font-family: cursive;
+    border-radius: 1rem;
+    background-color: yellow;
+}
+
+.contenido-formulario-6{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+
+.input-5{
+    width: 10%;
+    height: 5vh;
+    border-radius: 2rem;
+    font-family: cursive;
+    font-size: 1rem;
+    background-color: yellow;
+}

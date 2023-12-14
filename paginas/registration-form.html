@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="icon" href="../assets/img/logo-Mighty-ducks.png" >
+    <link rel="stylesheet" href="../assets/style/style.css" >
+    <title>Hockey League</title>
+</head>
+
+<body>
+    <header class="container-header">
+        <img
+        class="img-logo"
+        src="../assets/img/logo-Mighty-ducks.png"
+        alt="imagen-logo">
+        <h1>Mighty Ducks Hockey League</h1>
+            <nav class="container-nav">
+                <a href="/index.html">Home </a>
+                <a href="../paginas/aboutMDHL.html">About MDHL </a>
+                <a href="../paginas/contact.html">Contact</a>
+                <a href="../paginas/Rules.html">Rules&policies</a>
+                <a href="../paginas/game_info.html">Game information</a>
+                <a href="#">Registration</a>
+            </nav>
+    </header>
+    <main class="container-main">
+        <div class="container-registration">
+            <div class="h3-registration">
+                <h3 >Registration Form</h3>
+            </div>
+            <div class="container-formulario">
+                <form class="contenido-formulario" action="../paginas/show-data.html" method="get" >
+                    <fieldset class="fieldset-first-name">
+                        <label for="firstName"> Player's first Name:
+                            <input class="input-1" id="firstName"  type="text" name="firstName"> </label>
+                        <label for="lastName"> Last Name: <input class="input-1" id="lastName" type="text"
+                                name="lastName"></label>
+                        <label for="addres">Street Address: <input class="input-1" id="addres"  type="text"
+                                name="addres"></label>
+                        <label for="city"> City Address: <input class="input-1" id="city" size="59" type="text" name="city"></label>
+                        <label for="zip">Zip Code: <input class="input-1" id="zip" type="text" name="zip"></label>
+                    </fieldset>
+                    <div class="contenido-formulario-2">
+                        <fieldset class="fieldset-birh-date">
+                            <label for="start">Birth Date:</label>
+                            <input class="input-2" type="date" id="start" name="trip-start" value="2018-07-22" min="1970-01-01" max="2018-12-31">
+                        </fieldset>
+                        <fieldset class="contenido-formulario-3">
+                            <label id="gender"> Gender: </label>
+                            <input class="inp" type="radio" name="sexo" value="Masculino"> Masculino
+                            <input class="inp" type="radio" name="sexo" value="Femenino"> Femenino
+                            <label class="grade">Grade:</label>
+                            <input class="inp" type="radio" name="grade" value="Pre-school">Pre-school
+                            <input class="inp" type="radio" name="grade" value="1st">1st
+                            <input class="inp" type="radio" name="grade" value="2nd">2nd
+                            <input class="inp" type="radio" name="grade" value="3rd">3rd
+                            <input class="inp" type="radio" name="grade" value="4th">4th
+                            <input class="inp" type="radio" name="grade" value="5th">5th
+                        </fieldset>
+                        <fieldset class="contenido-formulario-4">
+                            <label for="school-select">Closest School: <select class="select" name="school"
+                                    id="school-select">
+                                    <option value="" disabled selected>Select</option>
+                                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                                    <option value="Greenbay">Greenbay</option>
+                                    <option value="Howard A Yeager">Howard A Yeager</option>
+                                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                                    <option value="North Elementary">North Elementary</option>
+                                    <option value="South Elementary">South Elementary</option>
+                                </select>
+                            </label>
+                        </fieldset>
+                    </div>
+                    
+                    <div class="contenido-formulario-5">
+                        <fieldset class="fieldset-position">
+                            <legend>What position(s) do you normally play? (check all that apply)</legend>
+                            <input type="checkbox" name="position" value="Forward"> Forward
+                            <input type="checkbox" name="position" value="Defense">Defense
+                            <input type="checkbox" name="position" value="Midfield">Midfield
+                            <input type="checkbox" name="position" value="Goalkeeper">Goalkeeper
+                        </fieldset>
+                        <fieldset class="fieldset-uniform">
+                            <legend>Uniform Size:</legend>
+                            <input class="talla" type="radio" name="uniform" value="Youth Small"> Youth Small
+                            <input class="talla" type="radio" name="uniform" value="Youth Medium"> Youth Medium
+                            <input class="talla" type="radio" name="uniform" value="Youth large"> Youth large
+                            <input class="talla" type="radio" name="uniform" value="Small"> Small
+                            <input class="talla" type="radio" name="uniform" value="Medium"> Medium
+                            <input class="talla" type="radio" name="uniform" value="Large"> Large
+                            <input class="talla" type="radio" name="uniform" value="Extra Large"> Extra Large
+                        </fieldset>
+                    </div>
+
+                    <fieldset>
+                        <legend>Permission to Play</legend>
+                        <p >I, the parent or guardian of the minor registrant, agree that the
+                            registrant and will abide
+                            by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                            physical injury associated with hockey and in consideration for the "league" acceting the
+                            registrant fo its hockey programs and activities, I hereby relase, discharge. and/or
+                            otherwise indemnify MDHL, their empleoyees and associated personnel and volunteers,
+                            including the
+                            facililities used dor pratices and games, against any claim by or on behalf of the
+                            registrant as a result of the registrant's participation in the programand/orbeing
+                            transported to or from
+                            MDHL sponsored activities, which transportation By entering your name below, i
+                            here by agree andauthorizethe above. In addition, By entering your name, lalso acknowledge
+                            that i have
+                            read the
+                            cancellation policy and agree to its terms.</p>
+                    </fieldset>
+                    <fieldset class="fieldset-end">
+                        <label for="parent"> Parent/GuardinSignature: <input class="input-4" id="parent" type="text" name="parent"></label>
+                        <label for="date">Date: <input class="input-4" id="date" name="date" type="text"></label>
+                    </fieldset>
+                    <div class="contenido-formulario-6">
+                        <input class="input-5" type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer >
+        <p>valentina sanchez henao </p>
+    </footer>
+
+</body>
+
+</html>
